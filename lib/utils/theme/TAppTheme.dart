@@ -22,5 +22,6 @@ class TAppTheme{
       scaffoldBackgroundColor: Colors.black,
       textTheme:TTextTheme.darkTheme,
       elevatedButtonTheme: TElevatedButtonTheme.darkTheme
+
   );
 }
