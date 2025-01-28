@@ -9,6 +9,9 @@ environment:
   sdk: ^3.6.1
 
 #-------------PACKAGES--------------#
+#--after make the splash.yaml file and code run this command for splash screen create
+# flutter pub run flutter_native_splash:create --path=splash.yaml
+#this spalsh screen is create by right click -> project-> and make file
 
 dependencies:
   flutter:
@@ -19,6 +22,8 @@ dependencies:
   intl: ^0.18.1
   logger: ^2.0.1
   url_launcher: ^6.1.12
+  flutter_native_splash: ^2.4.4
+
 
   #Icons
   iconsax: ^0.0.8
