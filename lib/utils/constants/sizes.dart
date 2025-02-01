@@ -9,9 +9,9 @@ class TSizes{
   static const double xl = 32.0;
 
   static const double iconXs = 12.0;
-  static const double IconSm = 16.0;
-  static const double IconMd = 24.0;
-  static const double IconLg = 32.0;
+  static const double iconSm = 16.0;
+  static const double iconMd = 24.0;
+  static const double iconLg = 32.0;
 
   static const double fontSizeSm = 14.0;
   static const double fontSizeMd = 16.0;
