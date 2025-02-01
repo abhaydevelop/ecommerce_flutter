@@ -140,7 +140,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     ),
                   ),
                   Text(
-                    'or sign in with',
+                    'or sign up with',
                     style: Theme.of(context).textTheme.labelMedium,
                   ),
                   Expanded(
