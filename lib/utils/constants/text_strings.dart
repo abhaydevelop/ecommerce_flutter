@@ -10,4 +10,8 @@ class TTexts {
   static const String homeAppbarTitle = "Good day for shopping";
   static const String homeAppbarSubTitle = "Abhay";
 
+  static const String confirmemailsubtitle = "Congratulations! Your Account Awaits, Verify Your Email to start Shopping and Experienece a word of Unrivated Deals and Personalized offers.";
+  static const String yourAccountCreatedSubTitle = "Welcome to Your Unlimited Shopping Destination Your Account is Created Unleash the joy of Seamless Online Shopping!";
+  static const String yourAccountSuccessfully = "Your account successfully created!";
+
 }

@@ -11,8 +11,8 @@ class TImages{
   static const String onboarding_screen2 = "assets/images/on_boarding_images/onboarding_2.gif";
   static const String onboarding_screen3 = "assets/images/on_boarding_images/onboarding_3.gif";
 
-  static const String verify_email = "assets/logos/verify_email.png";
-  static const String account_create = "assets/logos/account_create.png";
+  static const String verify_email = "assets/logos/verifyemail.png";
+  static const String account_create = "assets/logos/accountcreate.png";
 
 
 
