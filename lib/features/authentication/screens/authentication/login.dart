@@ -1,3 +1,5 @@
+import 'package:ecommerce_application/features/authentication/screens/password/forget_password.dart';
+import 'package:ecommerce_application/navigation_menu.dart';
 import 'package:ecommerce_application/utils/constants/colors.dart';
 import 'package:ecommerce_application/utils/constants/sizes.dart';
 import 'package:ecommerce_application/utils/halper/helper_fuctions.dart';
@@ -94,7 +96,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           ],
                         ),
                         TextButton(
-                          onPressed: () {},
+                          onPressed: () => Get.to(() => ForgetPassword()),
                           child: const Text('Forgot Password?'),
                         ),
                       ],
@@ -106,7 +108,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     SizedBox(
                       width: double.infinity, // Ensures full width
                       child: ElevatedButton(
-                        onPressed: () {},
+                        onPressed: () => Get.to(() => NavigationMenu()),
                         child: const Text('Sign In'),
                       ),
                     ),

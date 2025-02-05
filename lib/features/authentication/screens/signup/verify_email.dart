@@ -69,7 +69,7 @@ class VerifyEmailScreen extends StatelessWidget {
                           image: TImages.verify_email,
                           title: TTexts.yourAccountSuccessfully,
                           subTitle: TTexts.yourAccountCreatedSubTitle,
-                          onPressed: () => Get.to(() => LoginScreen( )),
+                          onPressed: () => Get.to(() => LoginScreen()),
                         )),
                     child: Text('Continue')),
               ),
