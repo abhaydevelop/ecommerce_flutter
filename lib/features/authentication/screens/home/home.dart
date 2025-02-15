@@ -1,7 +1,7 @@
-import 'package:ecommerce_application/utils/constants/colors.dart';
-import 'package:flutter/material.dart';
 
-import '../../../../common/widgets/custom_shapes/containes/circular_container.dart';
+import 'package:flutter/material.dart';
+import '../../../../common/widgets/custom_shapes/containes/primary_header_container.dart';
+import 'home_appbar.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -12,21 +12,11 @@ class HomeScreen extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            ClipPath(
-              // clipper: ,
-              child: Container(
-                color: TColors.primaryColor,
-                padding: EdgeInsets.all(0),
-                child: SizedBox(
-                  height: 400,
-                  child: Stack(
-                    children: [
-                      Positioned(top: -150, right: -250,child: TCircularContainer(backgroundColor: TColors.textWhite.withOpacity(0.1),)),
-                      Positioned(top: 100, right: -300,child: TCircularContainer(backgroundColor: TColors.textWhite.withOpacity(0.1),)),
-              
-                    ],
-                  ),
-                ),
+            TPrimaryHeaderContainer(
+              child: Column(
+                children: [
+                  THomeAppBar()
+                ],
               ),
             )
           ],
@@ -35,5 +25,3 @@ class HomeScreen extends StatelessWidget {
     );
   }
 }
-
-
