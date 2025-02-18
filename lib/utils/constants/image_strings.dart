@@ -14,6 +14,12 @@ class TImages{
   static const String verify_email = "assets/logos/verifyemail.png";
   static const String account_create = "assets/logos/accountcreate.png";
 
+  static const String promobanner1 = "assets/images/banner/promo_banner_1.jpg";
+  static const String promobanner2 = "assets/images/banner/promo_banner_2.jpg";
+  static const String promobanner3 = "assets/images/banner/promo_banner_3.jpg";
+
+
+
 
 
 }
