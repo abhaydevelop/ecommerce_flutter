@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-import '../../../../common/widgets/image_text_widgets/vertical_image_text.dart';
-import '../../../../utils/constants/image_strings.dart';
-import '../../../../utils/device/device_utility.dart';
+import '../../../../../common/widgets/image_text_widgets/vertical_image_text.dart';
+import '../../../../../utils/constants/image_strings.dart';
+import '../../../../../utils/device/device_utility.dart';
 
 class THomeCategories extends StatelessWidget {
   const THomeCategories({
