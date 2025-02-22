@@ -1,4 +1,3 @@
-import 'package:ecommerce_application/app.dart';
 import 'package:ecommerce_application/utils/constants/image_strings.dart';
 import 'package:ecommerce_application/utils/constants/sizes.dart';
 import 'package:flutter/cupertino.dart';

@@ -18,6 +18,14 @@ class TImages{
   static const String promobanner2 = "assets/images/banner/promo_banner_2.jpg";
   static const String promobanner3 = "assets/images/banner/promo_banner_3.jpg";
 
+  static const String productImageHeadphne1 = "assets/images/product/headphone_1.png";
+  static const String productImageHeadphne2 = "assets/images/product/headphone_2.png";
+  static const String productImagePSP = "assets/images/product/psp_game_1.png";
+  static const String productImageWatch1 = "assets/images/product/watch_1.png";
+  static const String productImageWatch2 = "assets/images/product/watch_2.png";
+
+
+
 
 
 
